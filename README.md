@@ -3,7 +3,8 @@ MiniRequire.js
 
 RequireJS at the size of 2 tweets..!  
 
-=== What can it do? ===
+What can it do?
+===
 MiniRequire.js has two functions:
 * define(nameA, [nameD,nameE], function(d,e){})
 * require([nameA,nameB,nameC], function(a,b,c){})
