@@ -16,4 +16,4 @@ var define = function(name,requires,instance) {
 		require.i[name] = instance.apply(null, Array.prototype.slice.call(arguments,0));
 	});
 };
-define.amd = true;
+define.amd = {jQuery:true};
