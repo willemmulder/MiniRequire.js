@@ -4,7 +4,7 @@ RequireJS at the size of 2 tweets..!
 
 ```javascript
 var require=function(a){return a=function(c,d){var b=[];for(var a=0;a<c.length;a++)b.push(require.i[c[a]]);d.apply(null,b)},a.i={},a}();
-var define=function(a,b,c){require(b,function(){require.i[a]=c.apply(null,Array.prototype.slice.call(arguments,0))})};define.amd=!0
+var define=function(a,b,c){require(b,function(){require.i[a]=c.apply(null,Array.prototype.slice.call(arguments,0))})};define.amd={jQuery:!0}
 ```
 What can it do?
 ===============
